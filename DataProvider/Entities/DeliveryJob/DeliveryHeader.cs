@@ -41,5 +41,8 @@ namespace DataProvider.Entities.DeliveryJob
 
         [Display(Name = "attachmentName")]
         public String attachmentName { get; set; }
+
+        [Display(Name = "Retailer")]
+        public String  Retailer { get; set; }
     }
 }

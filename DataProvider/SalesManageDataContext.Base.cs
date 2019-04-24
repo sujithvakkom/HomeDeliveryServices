@@ -24,7 +24,7 @@ namespace DataProvider
         public List<string> getRetailers()
         {
             return
-            Database.SqlQuery<String>("select [name] from [dbo].[deliver_retailer]").ToList();
+            Database.SqlQuery<String>("select [name] from [dbo].[delivery_retailer] order by [name] desc").ToList();
         }
     }
 }

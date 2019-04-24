@@ -189,7 +189,7 @@
     <Compile Include="Controllers\API\DeliveryJobController.cs" />
     <Compile Include="Controllers\API\GeoController.cs" />
     <Compile Include="Controllers\API\HomeDeliveryController.cs" />
-    <Compile Include="Controllers\API\RetailerInfoProvider.cs" />
+    <Compile Include="Controllers\API\RetailerInfoProviderController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

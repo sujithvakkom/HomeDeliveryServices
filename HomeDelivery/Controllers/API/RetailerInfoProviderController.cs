@@ -9,10 +9,10 @@ using System.Web.Http;
 
 namespace HomeDelivery.Controllers.API
 {
-    public class RetailerInfoProvider : ApiController
+    public class RetailerInfoProviderController : ApiController
     {
-        // GET api/<controller>
-        public IEnumerable<string> Get()
+        [HttpGet]
+        public List<string> GetRetailer()
         {
             List<String> result = null;
             using (SalesManageDataContext db = new SalesManageDataContext(AppConfigSettings.WebConfigConnectionSting("GSLSR")))

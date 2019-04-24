@@ -71,6 +71,7 @@ namespace DataProvider.Properties {
         ///  ,@input_type
         ///  ,@Remarks
         ///  ,@username
+        ///  ,@retailer
         ///  ,@lines
         ///  ,@RECEIPTID_OUT OUTPUT
         ///  ,@HEADER_ID OUTPUT.

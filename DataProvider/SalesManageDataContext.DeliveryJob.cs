@@ -200,6 +200,7 @@ namespace DataProvider
                         new SqlParameter("@input_type", "MOB"),
                         new SqlParameter("@Remarks", DeliveryJob.Remarks),
                         new SqlParameter("@username", DeliveryJob.UserName),
+                        new SqlParameter("@retailer", DeliveryJob.Retailer==null?(object)DBNull.Value:(object)DeliveryJob.Retailer),
                         lines
                         );
                 tran.Commit();
